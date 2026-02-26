@@ -5,6 +5,8 @@ import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
 @Data
+// Datos de entrada para crear un nuevo producto, 
+// incluyendo su id, nombre, descripción, precio y un archivo (posiblemente una imagen del producto).
 public class CreateProductRequest implements Request<Void> {
 
     private Long id;
